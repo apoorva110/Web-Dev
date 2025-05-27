@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS FLEXBOX</title>
+    <style>
+        .container{
+            border:2px solid saddlebrown;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row-reverse;
+            flex-wrap: wrap-reverse;
+            gap: 100px;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        .item{
+            height:50px;
+            width: 50px;
+            /* margin: 4px; */
+            border: 2px solid black;
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="item">HELLO</div>
+            <div class="item">FROM</div>
+            <div class="item">CSE</div>
+            <div class="item">DEPARTMENT</div>
+            <div class="item">OCT</div>
+            <div class="item">HELLO</div>
+            <div class="item">FROM</div>
+            <div class="item">CSE</div>
+            <div class="item">DEPARTMENT</div>
+            <div class="item">OCT</div>
+            <div class="item">HELLO</div>
+            <div class="item">FROM</div>
+            <div class="item">CSE</div>
+            <div class="item">DEPARTMENT</div>
+            <div class="item">OCT</div>
+        </div>
+    </main>
+</body>
+</html>
