@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS SELECTOR</title>
+    <style>
+        /*ELEMENT SELECTOR*/
+        div{
+            /* background-color: antiquewhite; */
+            color: blue;
+        }
+        /*Class selector*/
+        .tiol{
+            background-color: rebeccapurple;
+            /* color: brown; */
+        }
+        /*id selector*/
+        #green{
+            color:brown;
+            background-color: blanchedalmond;
+        }
+        /* child selector */
+        div > p{
+            background-color: beige;
+            color:blue;
+        }
+        /* pseudo selector */
+        a:visited{
+            color:blue;
+        }
+        a:link{
+            background-color: teal;
+        }
+        a:active{
+            background-color: red;
+        }
+        p:first-child{
+            color:royalblue;
+            background-color: tan;
+        }
+    </style>
+</head>
+<body>
+    <div id="green">
+        I am a div
+    </div>
+    <div class = "tiol">
+        Hello! I am learning css selector
+    </div>
+    <div>
+        Hello! I am learning javascript
+        <p>I am first</p>
+        <p>I am second</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nostrum ipsam eos molestiae explicabo consequatur inventore? Dolore deserunt eligendi reiciendis?</p>
+        <a href="https://www.twitter.com">TWITTER</a>
+    </div>
+</body>
+</html>
